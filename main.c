@@ -1,4 +1,4 @@
-#include <stdio.h>
+п»ї#include <stdio.h>
 #include <stdlib.h>
 #include <windows.h>
 #include <time.h>
@@ -25,9 +25,9 @@ int main() {
 		exit(1);
 	}
 	
-	char us_name[UNLEN ], comp_name[UNLEN]; // буфер
-	DWORD us_size, comp_size; // размер 
-	us_size = sizeof(us_name); // размер буфера
+	char us_name[UNLEN ], comp_name[UNLEN]; // Р±СѓС„РµСЂ
+	DWORD us_size, comp_size; // СЂР°Р·РјРµСЂ 
+	us_size = sizeof(us_name); // СЂР°Р·РјРµСЂ Р±СѓС„РµСЂР°
 	GetUserNameA(us_name, &us_size);
 	comp_size = sizeof(comp_name);
 	GetComputerNameA(comp_name, &comp_size);
